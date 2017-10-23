@@ -1,6 +1,4 @@
-[![Dependency Status](https://gemnasium.com/badges/github.com/hoppispace/hoppi-space-web-app.svg)](https://gemnasium.com/github.com/hoppispace/hoppi-space-web-app)
-
-[![CircleCI](https://img.shields.io/circleci/project/github/RedSparr0w/node-csgo-parser.svg?style=plastic)](https://circleci.com/gh/hoppispace/hoppi-space-web-app)
+[![Dependency Status](https://gemnasium.com/badges/github.com/hoppispace/hoppi-space-web-app.svg)](https://gemnasium.com/github.com/hoppispace/hoppi-space-web-app) [![CircleCI](https://img.shields.io/circleci/project/github/RedSparr0w/node-csgo-parser.svg?style=plastic)](https://circleci.com/gh/hoppispace/hoppi-space-web-app)
 
 ## Developer Setup
 ### `node v8.5.0`
