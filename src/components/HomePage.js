@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 const HomePage = () => {
   return (
@@ -12,12 +12,11 @@ const HomePage = () => {
           <div id="lead-container">
             <h1>Hoppi Space</h1>
             <h2>Connecting the artist within to the space you are without</h2>
-            <p></p>
           </div>
 
           <div id="search">
             <h2>Dive on in.</h2>
-              <label for="search-bar">Where to next?</label>
+              <label htmlFor="search-bar">Where to next?</label>
               <input id="search-bar" type="search" />
           </div>
 
@@ -43,7 +42,7 @@ const HomePage = () => {
           <footer>
             <div>
               <h4>Socialize</h4>
-              <ul class="social-share" id="footer-social">
+              <ul className="social-share" id="footer-social">
                 <li>Facebook</li>
                 <li>Instagram</li>
                 <li>Twitter</li>
@@ -61,7 +60,7 @@ const HomePage = () => {
 
             <div>
               <ul id="footer-copyright">
-                <li>Copyright © Hoppi Space 2018</li>
+                <li>Copyright &copy; Hoppi Space 2018</li>
                 <li>Terms and Conditions</li>
                 <li>Privacy Policy</li>
                 <li>Careers</li>

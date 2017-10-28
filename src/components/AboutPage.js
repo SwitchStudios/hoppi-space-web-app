@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import '../styles/about-page.css';
 
 // Since this component is simple and static, there's no parent container for it.
@@ -23,21 +23,21 @@ const AboutPage = () => {
           <p>Both of our founders are proud, Class of 2015 UNC Chapel Hill alumni devoted to the cause of making artistic expression accessible for all.</p>
 
           {/*TO DO: Add back aposthrope to "We'll take it"*/}
-          <div class="team-member-card">
-            <div class="team-img"></div>
-            <div class="team-bio">
-              <p class="member-name">Faith Walker, <span>Co-Founder</span></p>
-              <p class="member-summary">QA Engineer by day, Web Dev and Chief Editor by night. Having earned her B.A. in Computer Science, she is dedicated to the task of creating not only an aesthetically pleasing and user-friendly experience, but also writing stuff you want to read. 
+          <div className="team-member-card">
+            <div className="team-img"></div>
+            <div className="team-bio">
+              <p className="member-name">Faith Walker, <span>Co-Founder</span></p>
+              <p className="member-summary">QA Engineer by day, Web Dev and Chief Editor by night. Having earned her B.A. in Computer Science, she is dedicated to the task of creating not only an aesthetically pleasing and user-friendly experience, but also writing stuff you want to read. 
               Engaging material and intriguing design? Well take it.</p>
             </div>
           </div>
 
           {/*TO DO: Add back aposthrope to "She's got your back"*/}
-          <div class="team-member-card">
-            <div class="team-img"></div>
-              <div class="team-bio">
-                <p class="member-name">Pearl Sortman, <span>Co-Founder</span></p>
-                <p class="member-summary">A Full-stack Developer by trade, Pearl uses her B.A. in Computer Science to turn a small class project into a personal passion. 
+          <div className="team-member-card">
+            <div className="team-img" />
+              <div className="team-bio">
+                <p className="member-name">Pearl Sortman, <span>Co-Founder</span></p>
+                <p className="member-summary">A Full-stack Developer by trade, Pearl uses her B.A. in Computer Science to turn a small class project into a personal passion. 
                 She strives to help create a diverse, global community of creators and bring all telephone pole "Wanted" adds to the digital realm. Shes got your back, and our backend.</p>
               </div>
           </div>
