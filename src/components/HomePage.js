@@ -1,16 +1,10 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 const HomePage = () => {
   return (
     <div>
-      <h1>React Slingshot</h1>
-
-      <h2>Get Started</h2>
-      <ol>
-        <li>Review the <Link to="/fuel-savings">demo app</Link></li>
-        <li>Remove the demo and start coding: npm run remove-demo</li>
-      </ol>
+      <h1>Hoppi Space</h1>
+      <h2>Connecting the artist within to the space you are without</h2>
     </div>
   );
 };
