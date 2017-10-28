@@ -2,14 +2,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Switch, NavLink, Route } from 'react-router-dom';
-
 import HomePage from './HomePage';
+import FuelSavingsPage from '../containers/FuelSavingsPage';
+import AboutPage from './AboutPage';
 import NotFoundPage from './NotFoundPage';
-
-import ContactPage from '../containers/ContactPage';
-import ListSpacePage from '../containers/ListSpacePage';
-import UserAccountPage from '../containers/UserAccountPage';
-import Messaging from './Account/Messaging';
 
 // This is a class-based component because the current
 // version of hot reloading won't hot reload a stateless
@@ -23,20 +19,14 @@ class App extends React.Component {
         <div>
           <NavLink exact to="/" activeStyle={activeStyle}>Home</NavLink>
           {' | '}
-          <NavLink to="/list" activeStyle={activeStyle}>List Space</NavLink>
+          <NavLink to="/fuel-savings" activeStyle={activeStyle}>Demo App</NavLink>
           {' | '}
-          <NavLink to="/inbox" activeStyle={activeStyle}>Inbox</NavLink>
-          {' | '}
-          <NavLink to="/help" activeStyle={activeStyle}>Help</NavLink>
-          {' | '}
-          <NavLink to="/profile" activeStyle={activeStyle}>Profile</NavLink>
+          <NavLink to="/about" activeStyle={activeStyle}>About</NavLink>
         </div>
         <Switch>
           <Route exact path="/" component={HomePage} />
-          <Route path="/list" component={ListSpacePage} />
-          <Route path="/inbox" component={Messaging} />
-          <Route path="/help" component={ContactPage} />
-          <Route path="/profile" component={UserAccountPage} />
+          <Route path="/fuel-savings" component={FuelSavingsPage} />
+          <Route path="/about" component={AboutPage} />
           <Route component={NotFoundPage} />
         </Switch>
       </div>
