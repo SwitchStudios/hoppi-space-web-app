@@ -3,7 +3,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Switch, NavLink, Route } from 'react-router-dom';
 import HomePage from './HomePage';
-import FuelSavingsPage from '../containers/FuelSavingsPage';
+import SearchResultsPage from '../containers/SearchResultsPage';
 import AboutPage from './AboutPage';
 import NotFoundPage from './NotFoundPage';
 
@@ -29,7 +29,7 @@ class App extends React.Component {
         </div>
         <Switch>
           <Route exact path="/" component={HomePage} />
-          <Route path="/list" component={FuelSavingsPage} />
+          <Route path="/list" component={SearchResultsPage} />
           <Route path="/inbox" component={AboutPage} />
           <Route path="/support" component={AboutPage} />
           <Route path="/profile" component={AboutPage} />
