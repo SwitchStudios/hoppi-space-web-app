@@ -19,14 +19,20 @@ class App extends React.Component {
         <div>
           <NavLink exact to="/" activeStyle={activeStyle}>Home</NavLink>
           {' | '}
-          <NavLink to="/fuel-savings" activeStyle={activeStyle}>Demo App</NavLink>
+          <NavLink to="/list" activeStyle={activeStyle}>List Space</NavLink>
           {' | '}
-          <NavLink to="/about" activeStyle={activeStyle}>About</NavLink>
+          <NavLink to="/inbox" activeStyle={activeStyle}>Inbox</NavLink>
+          {' | '}
+          <NavLink to="/support" activeStyle={activeStyle}>Support</NavLink>
+          {' | '}
+          <NavLink to="/profile" activeStyle={activeStyle}>Profile</NavLink>
         </div>
         <Switch>
           <Route exact path="/" component={HomePage} />
-          <Route path="/fuel-savings" component={FuelSavingsPage} />
-          <Route path="/about" component={AboutPage} />
+          <Route path="/list" component={FuelSavingsPage} />
+          <Route path="/inbox" component={AboutPage} />
+          <Route path="/support" component={AboutPage} />
+          <Route path="/profile" component={AboutPage} />
           <Route component={NotFoundPage} />
         </Switch>
       </div>
