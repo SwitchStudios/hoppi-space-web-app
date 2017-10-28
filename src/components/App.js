@@ -6,12 +6,9 @@ import { Switch, NavLink, Route } from 'react-router-dom';
 import HomePage from './HomePage';
 import NotFoundPage from './NotFoundPage';
 
-import SearchPage from './Search/SearchPage';
-import Profile from './Account/Profile';
-import Favorites from './Account/Favorites';
-import Reservations from './Account/Reservations';
-import LoggedOut from './Account/LoggedOut';
-import SignUp from './Account/SignUp';
+import ContactPage from '../containers/ContactPage';
+import ListSpacePage from '../containers/ListSpacePage';
+import UserAccountPage from '../containers/UserAccountPage';
 import Messaging from './Account/Messaging';
 
 // This is a class-based component because the current
@@ -26,32 +23,20 @@ class App extends React.Component {
         <div>
           <NavLink exact to="/" activeStyle={activeStyle}>Home</NavLink>
           {' | '}
-          <NavLink to="/favorites" activeStyle={activeStyle}>Favorites</NavLink>
-          {' | '}
-          <NavLink to="/profile" activeStyle={activeStyle}>Profile</NavLink>
-          {' | '}
-          <NavLink to="/reservations" activeStyle={activeStyle}>My Reservations</NavLink>
+          <NavLink to="/list" activeStyle={activeStyle}>List Space</NavLink>
           {' | '}
           <NavLink to="/inbox" activeStyle={activeStyle}>Inbox</NavLink>
           {' | '}
-          <NavLink to="/search" activeStyle={activeStyle}>Search Spaces</NavLink>
+          <NavLink to="/help" activeStyle={activeStyle}>Help</NavLink>
           {' | '}
-          <NavLink to="/list" activeStyle={activeStyle}>List Space</NavLink>
-          {' | '}
-          <NavLink to="/logout" activeStyle={activeStyle}>Logout</NavLink>
-          {' | '}
-          <NavLink to="/signup" activeStyle={activeStyle}>LogIn / SignUp</NavLink>
+          <NavLink to="/profile" activeStyle={activeStyle}>Profile</NavLink>
         </div>
         <Switch>
           <Route exact path="/" component={HomePage} />
-          <Route path="/favorites" component={Favorites} />
-          <Route path="/profile" component={Profile} />
-          <Route path="/search" component={SearchPage} />
-          <Route path="/list" component={SearchPage} />
-          <Route path="/reservations" component={Reservations} />
+          <Route path="/list" component={ListSpacePage} />
           <Route path="/inbox" component={Messaging} />
-          <Route path="/logout" component={LoggedOut} />
-          <Route path="/signup" component={SignUp} />
+          <Route path="/help" component={ContactPage} />
+          <Route path="/profile" component={UserAccountPage} />
           <Route component={NotFoundPage} />
         </Switch>
       </div>
