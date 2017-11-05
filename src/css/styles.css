@@ -1,61 +1,48 @@
 /* --- IMPORTS --- */
-@import "partials/variables";
-
 /* Styles */
 body {
   font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  background-color: $body-background-color;
+  background-color: #fff;
   line-height: 1.4em;
   color: #4d4d4d;
   min-width: 230px;
   max-width: 85%;
   margin: 0 auto;
-  // padding: 0;
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
   font-smoothing: antialiased;
-  font-weight: 300;
-}
+  font-weight: 300; }
 
 p {
-  color: $text-color;
-}
+  color: #38618c; }
 
 ul {
-  list-style: none;  
-}
+  list-style: none; }
 
 td {
-	padding: 12px;
-}
+  padding: 12px; }
 
 h2 {
-	color: $secondary-color;
-}
+  color: #35a7ff; }
 
 h1 {
-  color: $theme-color;
-}
+  color: #e7134f; }
 
 #consult-banner {
   position: sticky;
   top: 0px;
   margin: 0;
   text-align: center;
-  background-color: $ternary-color;
+  background-color: #ffe74c;
   height: 40px;
-  width: 100%;
-}
+  width: 100%; }
 
-#consult-copy { //TO DO: Vertically align text
-  color: $text-color;
-  font-weight: bold;
-}
-
+#consult-copy {
+  color: #38618c;
+  font-weight: bold; }
 
 #footer-items {
-  background-color: $secondary-color;
-  color: #fff;
-}
+  background-color: #35a7ff;
+  color: #fff; }
 
-
+/*# sourceMappingURL=styles.css.map */
