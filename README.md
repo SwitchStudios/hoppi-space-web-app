@@ -7,10 +7,10 @@
 
 ## Available Commands
 
-### `yarn i` or `npm i`
+### `yarn install`
 Installs dependencies
 
-### `yarn run start` or `npm run start`
+### `yarn start`
 Run the app on localhost
 
 ### `rm -rf lib && rm -rf dist && rm -rf node_modules`
