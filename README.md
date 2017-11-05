@@ -7,7 +7,7 @@
 
 ## Available Commands
 
-### `yarn i`
+### `yarn install`
 Installs dependencies
 
 ### `yarn start`
