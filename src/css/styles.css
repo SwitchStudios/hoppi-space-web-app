@@ -1,0 +1,48 @@
+/* --- IMPORTS --- */
+/* Styles */
+body {
+  font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #fff;
+  line-height: 1.4em;
+  color: #4d4d4d;
+  min-width: 230px;
+  max-width: 85%;
+  margin: 0 auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  font-weight: 300; }
+
+p {
+  color: #38618c; }
+
+ul {
+  list-style: none; }
+
+td {
+  padding: 12px; }
+
+h2 {
+  color: #35a7ff; }
+
+h1 {
+  color: #e7134f; }
+
+#consult-banner {
+  position: sticky;
+  top: 0px;
+  margin: 0;
+  text-align: center;
+  background-color: #ffe74c;
+  height: 40px;
+  width: 100%; }
+
+#consult-copy {
+  color: #38618c;
+  font-weight: bold; }
+
+#footer-items {
+  background-color: #35a7ff;
+  color: #fff; }
+
+/*# sourceMappingURL=styles.css.map */
