@@ -1,11 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import SpaceResultItem from './SpaceResultItem';
+
 const SearchResults = (searchSpaces) => {
     return (
         <div>
-            <h1>Search Results</h1>
-            <button onClick={searchSpaces}>Search</button>
+            <SpaceResultItem />
+            <SpaceResultItem />
         </div>
     );
 };
