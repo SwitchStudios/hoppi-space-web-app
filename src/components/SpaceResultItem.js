@@ -1,9 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const SpaceResultItem = (props) => {
+const SpaceResultItem = () => {
 	return (
-		<div className='spaceResultItem'>
+		<div className="spaceResultItem">
 			<h2>{this.props.name}</h2>
 		</div>
 	);

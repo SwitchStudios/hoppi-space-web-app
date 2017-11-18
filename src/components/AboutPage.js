@@ -24,7 +24,7 @@ const AboutPage = () => {
 
           {/*TO DO: Add back aposthrope to "We'll take it"*/}
           <div className="team-member-card">
-            <div className="team-img"></div>
+            <div className="team-img" />
             <div className="team-bio">
               <p className="member-name">Faith Walker, <span>Co-Founder</span></p>
               <p className="member-summary">QA Engineer by day, Web Dev and Chief Editor by night. Having earned her B.A. in Computer Science, she is dedicated to the task of creating not only an aesthetically pleasing and user-friendly experience, but also writing stuff you want to read. 

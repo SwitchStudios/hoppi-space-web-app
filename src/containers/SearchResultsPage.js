@@ -6,7 +6,7 @@ import React from 'react';
 import SearchResults from '../components/SearchResults';
 import SearchForm from '../components/SearchForm';
 
-export const SearchResultsPage = (props) => {
+export const SearchResultsPage = () => {
     return (
         <div>
             <SearchForm />
