@@ -8,15 +8,17 @@ const HomePage = () => {
           <div id="consult-banner">
             <p id="consult-copy">Located in the D.C. metro area? Sign-up for a free consultation!</p>
           </div>
-              <div id="lead-container">
-                <h1>Hoppi Space</h1>
-                <h2>Connecting the artist within to the space you are without</h2>
+              <div className="container">
+                <div className ="row">
+                  <div className ="col-lg-12" id="lead">
+                    <h1>Hoppi Space</h1>
+                    <h2>Connecting the artist within to the space you are without</h2>
+                  </div>
+                </div>
               </div>
 
               <div id="search">
-                <h2>Dive on in.</h2>
-                  <label htmlFor="search-bar">Where to next?</label>
-                  <input id="search-bar" type="search" />
+                <h2>Dive on in.</h2>                  
               </div>
 
               <section>
