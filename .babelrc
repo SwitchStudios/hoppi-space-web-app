@@ -18,6 +18,7 @@
             ],
             "plugins": [
                 "transform-react-constant-elements",
+                "transform-react-jsx",
                 "transform-react-remove-prop-types"
             ]
         },
@@ -39,6 +40,7 @@
             ],
             "plugins": [
                 "transform-react-constant-elements",
+                "transform-react-jsx",
                 "transform-react-remove-prop-types"
             ]
         },

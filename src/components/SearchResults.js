@@ -1,17 +1,14 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 
-const SearchResults = (searchSpaces) => {
+import SpaceResultItem from './SpaceResultItem';
+
+const SearchResults = () => {
     return (
         <div>
-            <h1>Search Results</h1>
-            <button onClick={searchSpaces}>Search</button>
+            <SpaceResultItem />
+            <SpaceResultItem />
         </div>
     );
-};
-
-SearchResults.propTypes = {
-    searchSpaces: PropTypes.func.isRequired
 };
 
 export default SearchResults;
