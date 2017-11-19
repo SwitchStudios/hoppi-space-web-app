@@ -7,14 +7,18 @@ body {
   background-color: $body-background-color;
   line-height: 1.4em;
   color: #4d4d4d;
-  min-width: 230px;
-  max-width: 85%;
+  //min-width: 85%;
+  //max-width: 85%;
   margin: 0 auto;
   // padding: 0;
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
   font-smoothing: antialiased;
   font-weight: 300;
+}
+
+.container, .container-fluid {
+  margin: 50px auto 50px auto;
 }
 
 p {
@@ -58,4 +62,44 @@ h1 {
   color: #fff;
 }
 
+#lead {
+  background-image: url('https://wallpaperscraft.com/image/art_supplies_paints_brushes_109981_4240x2832.jpg');
+  background-size: cover;
+  padding-bottom: 25%;
 
+  h1 {
+    padding-top: 25%;
+    text-align: center;
+    color: #fff;
+  }
+
+  h2 {
+    color: #fff;
+    text-align: center;
+  }
+
+  #lead-search {
+    max-width: 200px;
+  }
+}
+
+#how-it-works {
+  background-color: #e7134f;
+  p, h3 {
+    color: #fff;
+  }
+
+  hr {
+    color: #fff;
+    box-shadow: 0px 1px 2px #fff;
+  }
+}
+
+#footer-items {
+  padding: 20px 0px 20px 0px;
+  
+  .footer-link-header {
+      font-size: 150%;
+      font-weight: bold;
+  }
+}
