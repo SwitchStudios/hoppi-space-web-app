@@ -13,11 +13,11 @@ const HomePage = () => {
                     <h2>Connecting the artist within to the space you are without</h2>
                   {/*TO-DO: Add Anchor linked buttons to content below*/}
                   <form>
-                      <div class="col-lg-12">
-                        <div class="input-group">
-                          <input type="text" class="form-control" placeholder="Search for..." />
-                          <span class="input-group-btn">
-                            <button class="btn btn-secondary" type="button">Go!</button>
+                      <div className="col-lg-12">
+                        <div className="input-group">
+                          <input type="text" className="form-control" placeholder="Search for..." />
+                          <span className="input-group-btn">
+                            <button className="btn btn-secondary" type="button">Go!</button>
                           </span>
                         </div>
                       </div>
