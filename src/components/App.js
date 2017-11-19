@@ -23,17 +23,17 @@ class App extends React.Component {
       <div>
         <div>
           <NavLink exact to="/" activeStyle={activeStyle}>Home</NavLink>
-          {'  |  '}
+          {' | '}
           <NavLink to="/search" activeStyle={activeStyle}>Find Space</NavLink>
-          {'  |  '}
+          {' | '}
           <NavLink to="/list-space" activeStyle={activeStyle}>List Space</NavLink>
-          {'  |  '}
+          {' | '}
           <NavLink to="/inbox" activeStyle={activeStyle}>Inbox</NavLink>
-          {'  |  '}
+          {' | '}
           <NavLink to="/support" activeStyle={activeStyle}>Support</NavLink>
-          {'  |  '}
+          {' | '}
           <NavLink to="/about" activeStyle={activeStyle}>About Us</NavLink>
-          {'  |  '}
+          {' | '}
           <NavLink to="/profile" activeStyle={activeStyle}>My Profile</NavLink>
         </div>
         <Switch>
