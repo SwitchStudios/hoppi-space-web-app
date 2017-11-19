@@ -21,7 +21,7 @@ class App extends React.Component {
     const activeStyle = { color: 'blue' };
     return (
       <div>
-        <div>
+      <div className="navbar-brand">
           <NavLink exact to="/" activeStyle={activeStyle}>Home</NavLink>
           {' | '}
           <NavLink to="/search" activeStyle={activeStyle}>Find Space</NavLink>
