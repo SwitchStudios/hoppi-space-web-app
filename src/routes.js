@@ -2,7 +2,7 @@ import React from 'react';
 import {Route, Switch} from 'react-router-dom';
 
 import HomeContainer from './containers/HomeContainer';
-import About from './components/About/About';
+import About from './components/About/AboutPage';
 import SearchResultsContainer from './containers/SearchResultsContainer';
 import ListSpaceContainer from './containers/ListSpaceContainer';
 import SupportPage from './components/_Common/SupportPage';

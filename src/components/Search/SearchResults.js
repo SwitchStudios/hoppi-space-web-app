@@ -4,8 +4,11 @@ import SpaceResultItem from '../Space/SpaceResultItem';
 
 const SearchResults = () => {
     return (
-        <div>
-            <SpaceResultItem name="Studio 6" />
+        <div id="search-results-list" className="container">
+            <SpaceResultItem />
+            <SpaceResultItem />
+            <SpaceResultItem />
+            <SpaceResultItem />
         </div>
     );
 };
