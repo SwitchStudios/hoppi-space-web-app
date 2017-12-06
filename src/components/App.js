@@ -1,13 +1,15 @@
 import React from 'react';
 
 import Routes from '../routes';
-import Header from './Header';
+import Header from './_Common/Header';
+import Footer from './_Common/Footer';
 
 const App = () => {
     return (
         <div>
-            { Routes }
+            {Routes}
             <Header/>
+            <Footer/>
         </div>
     );
 };

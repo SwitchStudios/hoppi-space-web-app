@@ -1,6 +1,6 @@
 import React from 'react';
 
-const AddSpacePage = () => {
+const ListSpaceContainer = () => {
   return (
     <div>
       <h1>List Your Space!</h1>
@@ -9,4 +9,4 @@ const AddSpacePage = () => {
   );
 };
 
-export default AddSpacePage;
+export default ListSpaceContainer;

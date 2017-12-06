@@ -1,9 +1,9 @@
 import React from 'react';
 
-import SearchResults from '../components/SearchResults';
-import SearchForm from '../components/SearchForm';
+import SearchResults from '../components/Search/SearchResults';
+import SearchForm from '../components/Search/SearchForm';
 
-export const SearchResultsPage = () => {
+const SearchResultsContainer = () => {
     return (
         <div>
             <h1>Find your next space!</h1>
@@ -14,4 +14,4 @@ export const SearchResultsPage = () => {
     );
 };
 
-export default SearchResultsPage;
+export default SearchResultsContainer;

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import SpaceResultItem from './SpaceResultItem';
+import SpaceResultItem from '../Space/SpaceResultItem';
 
 const SearchResults = () => {
     return (

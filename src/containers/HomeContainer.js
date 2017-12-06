@@ -1,5 +1,4 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
 
 const HomePage = () => {
   return (
@@ -26,7 +25,7 @@ const HomePage = () => {
                 </div>
               </div>
 
-            {/*Featured Studios Section*/}  
+            {/*Featured Studios Section*/}
               <div className="container">
                 <div id="featured-carousel">
                   <h2>Featured Studios</h2>
@@ -42,44 +41,14 @@ const HomePage = () => {
                   <h2 className="display-3">How It Works</h2>
                   <h3>Browse, Book, Pay</h3>
                   <hr/>
-                  <p className="lead">We are your new favorite local coffee shop community board. Browse hundreds of available workshops in your area or worldwide using our fast and efficient search engine. 
-                  We optimize results with your craft needs, tools, and budget in mind. 
+                  <p className="lead">We are your new favorite local coffee shop community board. Browse hundreds of available workshops in your area or worldwide using our fast and efficient search engine.
+                  We optimize results with your craft needs, tools, and budget in mind.
                   When youve found "the one", our effortless booking system will relay your request to our owners for confirmation, and utilizing our secure Braintree-based payment system, make your payment. Welcome home.</p>
                 </div>
               </div>
 
           {/*Footer => TO BE REFECTORED*/}
-            <footer id="footer-items">
-              <div className="container-fluid">
-                <div className="row">
-                  <div className="col-lg-4">
-                    <ul className="social-share" id="footer-social">
-                      <li className="footer-link-header">Socialize</li>
-                      <li><a href="https://www.facebook.com/hoppispace">Facebook</a></li>
-                      <li><a href="https://www.instagram.com/hoppispace">Instagram</a></li>
-                      <li><a href="https://www.twitter.com/hoppispace">Twitter</a></li>
-                    </ul>
-                  </div>
-                  <div className="col-lg-4" id="footer-contact">
-                    <ul>
-                      <li className="footer-link-header">Get In Touch</li>
-                      <li>General: contact@hoppispace.com</li>
-                      <li>Support: support@hoppispace.com</li>
-                      <li>{/*TO DO: Add phone icon*/}Phone: 000.000.0000</li>
-                    </ul>
-                  </div>
-                  <div className="col-lg-4" id="footer-copyright">
-                    <ul id="footer-copyright">
-                      <li className="footer-link-header">Legal stuff</li>
-                      <li>Copyright &copy; Hoppi Space 2018</li>
-                      <li>Terms and Conditions</li>
-                      <li>Privacy Policy</li>
-                      <li>Careers</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </footer>
+
       </main>
     </div>
   );
