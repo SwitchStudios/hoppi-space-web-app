@@ -1,16 +1,12 @@
 @import "partials/variables";
 @import '~bootstrap/scss/bootstrap.scss';
 
-/* Styles */
 body {
+  margin: 0;
+  padding: 0;
+  color: $main-grey-dark;
   font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  background-color: $body-background-color;
   line-height: 1.4em;
-  color: #4d4d4d;
-  //min-width: 85%;
-  //max-width: 85%;
-  margin: 0 auto;
-  // padding: 0;
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
   font-smoothing: antialiased;
@@ -55,7 +51,6 @@ h1 {
   color: $text-color;
   font-weight: bold;
 }
-
 
 #footer-items {
   background-color: $secondary-color;
@@ -102,4 +97,8 @@ h1 {
       font-size: 150%;
       font-weight: bold;
   }
+}
+
+#user-profile-section {
+  background-color: $main-grey-light;
 }
