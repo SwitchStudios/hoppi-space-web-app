@@ -1,59 +1,106 @@
 /* Styles */
-body {
-  font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  background-color: #fff;
-  line-height: 1.4em;
-  color: #4d4d4d;
-  max-width: 85%;
-  margin: 0 auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-font-smoothing: antialiased;
-  font-smoothing: antialiased;
-  font-weight: 300; }
 
-/*p {
-  color: $text-color;
+body {
+    font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #fff;
+    line-height: 1.4em;
+    color: #4d4d4d;
+    margin: 0 auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    font-weight: 300;
+}
+
+.container,
+.container-fluid {
+    margin: 50px auto 50px auto;
+}
+
+p {
+    color: #38618c;
 }
 
 ul {
-  list-style: none;  
+    list-style: none;
 }
 
 td {
-	padding: 12px;
+    padding: 12px;
 }
 
 h2 {
-	color: $secondary-color;
+    color: #35a7ff;
 }
 
 h1 {
-  color: $theme-color;
+    color: #e7134f;
 }
 
 #consult-banner {
-  position: sticky;
-  top: 0px;
-  margin: 0;
-  text-align: center;
-  background-color: $ternary-color;
-  height: 40px;
-  width: 100%;
+    position: sticky;
+    top: 0px;
+    margin: 0;
+    text-align: center;
+    background-color: #ffe74c;
+    height: 40px;
+    width: 100%;
 }
 
-#consult-copy { //TO DO: Vertically align text
-  color: $text-color;
-  font-weight: bold;
+#consult-copy {
+    color: #38618c;
+    font-weight: bold;
 }
-
 
 #footer-items {
-  background-color: $secondary-color;
-  color: #fff;
+    background-color: #35a7ff;
+    color: #fff;
 }
 
 #lead {
-  background-color: #777;
-}*/
+    background-image: url("https://wallpaperscraft.com/image/art_supplies_paints_brushes_109981_4240x2832.jpg");
+    background-size: cover;
+    padding-bottom: 25%;
+}
+
+#lead h1 {
+    padding-top: 25%;
+    text-align: center;
+    color: #fff;
+}
+
+#lead h2 {
+    color: #fff;
+    text-align: center;
+}
+
+#lead #lead-search {
+    max-width: 200px;
+}
+
+#how-it-works {
+    background-color: #e7134f;
+}
+
+#how-it-works p,
+#how-it-works h3 {
+    color: #fff;
+}
+
+#how-it-works hr {
+    color: #fff;
+    box-shadow: 0px 1px 2px #fff;
+}
+
+#footer-items {
+    padding: 20px 0px 20px 0px;
+}
+
+#footer-items .footer-link-header {
+    font-size: 150%;
+    font-weight: bold;
+}
+
+
 
 /*# sourceMappingURL=styles.css.map */
