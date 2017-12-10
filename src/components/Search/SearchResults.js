@@ -10,6 +10,9 @@ const SearchResults = () => {
             <div id="search-results-list" className="col-xs-12 col-sm-8 col-md-8">
                 <div className="container-fluid">
                     <div className="row">
+                        <p>52 results found for "Art" spaces in "San Francisco"</p>
+                    </div>
+                    <div className="row">
                         <SpaceResultItem/>
                         <SpaceResultItem/>
                         <SpaceResultItem/>
