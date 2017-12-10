@@ -1,8 +1,6 @@
 import React from 'react';
-// import { connect } from 'react-redux';
-// import { bindActionCreators } from 'redux';
 
-import { searchSpaces } from '../actions/spaceSearchActions';
+import { searchSpaces } from '../../actions/spaceSearchActions';
 
 const SearchForm = () => {
     return (
