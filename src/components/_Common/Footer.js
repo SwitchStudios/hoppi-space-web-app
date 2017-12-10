@@ -8,9 +8,18 @@ const Footer = () => {
                     <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                         <ul className="social-share" id="footer-social">
                             <li className="footer-link-header">Socialize</li>
-                            <li><a href="https://www.facebook.com/hoppispace">Facebook</a></li>
-                            <li><a href="https://www.instagram.com/hoppispace">Instagram</a></li>
-                            <li><a href="https://www.twitter.com/hoppispace">Twitter</a></li>
+                            <li>
+                                <img src={require("../../assets/icons/socialmedia/icons8-facebook.svg")} />
+                                <a href="https://www.facebook.com/hoppispace">Facebook</a>
+                            </li>
+                            <li>
+                                <img src={require("../../assets/icons/socialmedia/icons8-instagram.svg")} />
+                                <a href="https://www.instagram.com/hoppispace">Instagram</a>
+                            </li>
+                            <li>
+                                <img src={require("../../assets/icons/socialmedia/icons8-twitter.svg")} />
+                                <a href="https://www.twitter.com/hoppispace">Twitter</a>
+                            </li>
                         </ul>
                     </div>
                     <div id="footer-contact" className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
@@ -30,6 +39,9 @@ const Footer = () => {
                             <li>Careers</li>
                         </ul>
                     </div>
+                </div>
+                <div className="row">
+                    <a href="https://icons8.com">Icon pack by Icons8</a>
                 </div>
             </div>
         </footer>

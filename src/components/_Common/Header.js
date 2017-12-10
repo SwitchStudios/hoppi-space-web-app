@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Header = () => {
     return (
         <header>
-            <nav id="primary-navigation" className="navbar navbar-expand-sm fixed-top">
+            <nav id="header" className="navbar navbar-expand-sm fixed-top">
                 <a id="logo" className="navbar-brand" href="/">h</a>
                 <ul className="navbar-nav">
                     <li className="nav-item active"><Link to="/about" className="nav-link">About</Link></li>

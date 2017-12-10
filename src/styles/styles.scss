@@ -4,14 +4,14 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: $body-background-color;
-    color: $main-grey-dark;
-    font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    line-height: 1.4em;
+    background-color: $white;
+    color: $main-gray-dark;
+    line-height: 2em;
+    font-family: $font-family-main;
+    font-weight: 300;
+    font-smoothing: antialiased;
     -webkit-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
-    font-smoothing: antialiased;
-    font-weight: 300;
 }
 
 html, body {
@@ -27,144 +27,127 @@ main {
     margin-top: 60px;
 }
 
-p {
-    color: $text-color;
-}
-
 ul {
     list-style: none;
-}
-
-td {
-    padding: 12px;
-}
-
-h2 {
-    color: $secondary-color;
-}
-
-h1 {
-    color: $theme-color;
-}
-
-.navbar-nav {
-    width: 100%;
-    justify-content: flex-end;
-}
-
-#logo {
-    font-family: "Lobster";
-    font-size: 3.5em;
-    font-weight: 900;
-    font-style: italic;
-    color: $fun-purple !important;
-}
-
-#consult-copy { //TO DO: Reimplement
-    color: $text-color;
-    font-weight: bold;
-}
-
-#primary-navigation {
-    background-color: #ffffff;
-    border-bottom: 2px $main-grey-dark solid;
-    height: 60px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.nav-item.active > .nav-link {
-    color: $main-grey-dark !important;
-}
-
-#consult-banner {
-    position: sticky;
-    top: 0;
-    margin: 0;
-    text-align: center;
-    background-color: $ternary-color;
-    height: 40px;
-    width: 100%;
-}
-
-#consult-copy {
-    color: $text-color;
-    font-weight: bold;
-}
-
-#lead {
-    background-image: url('https://wallpaperscraft.com/image/art_supplies_paints_brushes_109981_4240x2832.jpg');
-    background-size: cover;
-    padding-bottom: 25%;
-
-    h1 {
-        padding-top: 25%;
-        text-align: center;
-        color: #fff;
-    }
-
-    h2 {
-        color: #fff;
-        text-align: center;
-    }
-
-    #lead-search {
-        max-width: 200px;
-    }
-}
-
-#how-it-works {
-    background-color: #e7134f;
-    p, h3 {
-        color: #fff;
-    }
-
-    hr {
-        color: #fff;
-        box-shadow: 0 1px 2px #fff;
-    }
-}
-
-#footer {
-    padding: 20px 0 20px 0;
-    background-color: $secondary-color;
-    color: #fff;
-    clear: both;
-
-    .footer-link-header {
-        font-size: 150%;
-        font-weight: bold;
-    }
-}
-
-#user-profile-section {
-    background-color: $main-grey-light;
-}
-
-#search-results-list {
-    width: 70%;
-    padding: 20px;
 }
 
 .col-xs-12, .col-sm-4, .col-md-4 {
     padding: 0;
 }
 
-.spaceListItem {
-    border: 2px solid $fun-purple;
-    //border-radius: 20px;
-    min-width: 300px;
-    margin: 0 auto 10px auto;
+h1, h2, h3, h4, h5, h6 {
+    font-family: $font-family-header;
+    font-weight: 900;
 }
 
-#search-results-map {
-    padding: 0;
+h1 {
+    color: $main-purple-fun;
+    font-size: 6em;
+}
 
-    > img {
-        height: 700px;
+h2 {
+    color: $main-red-poppy;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 2em;
+    font-weight: 300;
+}
+
+.btn-primary {
+    background-color: $main-red-poppy;
+    border-color: $main-red-poppy;
+}
+
+#logo {
+    color: $main-purple-fun !important;
+    font-family: $font-family-fancy;
+    font-size: 3.5em;
+    font-style: italic;
+    font-weight: 900;
+}
+
+#search-form {
+    justify-content: center;
+}
+
+#header {
+    background-color: $white;
+    border-bottom: 2px $main-gray-dark solid;
+    height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    .navbar-nav {
+        width: 100%;
+        justify-content: flex-end;
+
+        .nav-item.active > .nav-link {
+            color: $main-gray-dark !important;
+        }
     }
 }
 
-img {
-    width: 100%;
+#home-container {
+    #lead {
+        background-color: $secondary-aliceblue;
+        padding: 75px;
+
+        h1, h4 {
+            text-align: center;
+        }
+
+        h4 {
+            padding-bottom: 20px;
+        }
+    }
+
+    #how-it-works {
+        padding: 75px;
+
+        hr {
+            color: $main-purple-light;
+            box-shadow: 0 1px 2px $white;
+        }
+    }
+}
+
+#search-results-container {
+    #search-results-list {
+        width: 70%;
+        padding: 20px;
+
+        .spaceListItem {
+            border: 2px solid $main-purple-fun;
+            //border-radius: 20px;
+            min-width: 300px;
+            margin: 0 auto 10px auto;
+        }
+    }
+
+    #search-results-map {
+        padding: 0;
+
+        > img {
+            height: 700px;
+        }
+    }
+}
+
+#user-profile-section {
+    background-color: $main-gray-dark;
+}
+
+#footer {
+    padding: 20px 0 20px 0;
+    background-color: $main-gray-dark;
+    color: $white;
+    clear: both;
+
+    .footer-link-header {
+        font-size: 150%;
+        font-weight: bold;
+    }
 }
