@@ -5,8 +5,7 @@ import SpaceResultItem from './SpaceResultItem';
 const SearchResults = () => {
     return (
         <div>
-            <SpaceResultItem />
-            <SpaceResultItem />
+            <SpaceResultItem name="Studio 6" />
         </div>
     );
 };
