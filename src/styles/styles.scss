@@ -19,7 +19,11 @@ html, body {
 
 .container,
 .container-fluid {
-    margin: 50px auto 50px auto;
+    margin: 0;
+}
+
+main {
+    margin-top: 60px;
 }
 
 p {
@@ -42,11 +46,28 @@ h1 {
     color: $theme-color;
 }
 
-.nav-item.active > .nav-link {
-    color: $main-blue !important;
+.navbar-nav {
+    width: 100%;
+    justify-content: flex-end;
 }
 
-.navbar-brand {
+#logo {
+    font-family: "Lobster";
+    font-size: 3.5em;
+    font-weight: 900;
+    font-style: italic;
+    color: $fun-purple !important;
+}
+
+#primary-navigation {
+    background-color: #ffffff;
+    border-bottom: 2px $main-grey-dark solid;
+    height: 60px;
+    margin-left: 10px;
+    margin-right:10px;
+}
+
+.nav-item.active > .nav-link {
     color: $main-grey-dark !important;
 }
 
@@ -60,7 +81,7 @@ h1 {
     width: 100%;
 }
 
-#consult-copy { //TO DO: Vertically align text
+#consult-copy {
     color: $text-color;
     font-weight: bold;
 }
@@ -100,9 +121,9 @@ h1 {
 
 #footer {
     padding: 20px 0 20px 0;
-    height: 200px;
     background-color: $secondary-color;
     color: #fff;
+    clear: both;
 
     .footer-link-header {
         font-size: 150%;
@@ -112,4 +133,32 @@ h1 {
 
 #user-profile-section {
     background-color: $main-grey-light;
+}
+
+#search-results-list {
+    width: 70%;
+    padding: 20px;
+}
+
+.col-xs-12, .col-sm-4, .col-md-4 {
+    padding: 0;
+}
+
+.spaceListItem {
+    border: 2px solid $fun-purple;
+    //border-radius: 20px;
+    min-width: 300px;
+    margin: 0 auto 10px auto;
+}
+
+#search-results-map {
+    padding: 0;
+
+    > img {
+        height: 700px;
+    }
+}
+
+img {
+    width: 100%;
 }
