@@ -1,9 +1,10 @@
 @import "partials/variables";
-@import '~bootstrap/scss/bootstrap.scss';
+@import "~bootstrap/scss/bootstrap.scss";
 
 body {
     margin: 0;
     padding: 0;
+    background-color: $body-background-color;
     color: $main-grey-dark;
     font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
     line-height: 1.4em;
@@ -59,12 +60,17 @@ h1 {
     color: $fun-purple !important;
 }
 
+#consult-copy { //TO DO: Reimplement
+    color: $text-color;
+    font-weight: bold;
+}
+
 #primary-navigation {
     background-color: #ffffff;
     border-bottom: 2px $main-grey-dark solid;
     height: 60px;
     margin-left: 10px;
-    margin-right:10px;
+    margin-right: 10px;
 }
 
 .nav-item.active > .nav-link {
