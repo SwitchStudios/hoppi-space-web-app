@@ -1,11 +1,10 @@
 import React from 'react';
 
 import SearchResults from '../components/Search/SearchResults';
-import SearchForm from '../components/Search/SearchForm';
 
 const SearchResultsContainer = () => {
     return (
-        <main>
+        <main id="search-results-container">
             <div className="container-fluid">
                 <SearchResults />
             </div>
