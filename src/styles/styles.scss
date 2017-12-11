@@ -38,12 +38,12 @@ ul {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: $font-family-header;
-    font-weight: 900;
 }
 
 h1 {
     color: $main-purple-fun;
-    font-size: 6em;
+    font-family: $font-family-fancy;
+    font-size: 5em;
 }
 
 h2 {
@@ -87,6 +87,7 @@ h3 {
 
         .nav-item.active > .nav-link {
             color: $main-gray-dark !important;
+            font-size: 0.9em;
         }
     }
 }
@@ -178,13 +179,8 @@ h3 {
 }
 
 #footer {
-    padding: 20px 0 20px 0;
+    padding: 30px;
     background-color: $main-gray-dark;
     color: $white;
     clear: both;
-
-    .footer-link-header {
-        font-size: 150%;
-        font-weight: bold;
-    }
 }

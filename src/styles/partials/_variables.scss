@@ -8,10 +8,15 @@ $main-red-poppy: #FF585C;
 $secondary-aliceblue: #F0F8FF;
 
 // === FONTS ===
-$font-family-header: 'Lato', Arial, serif;
-$font-family-main: 'Roboto', Helvetica, sans-serif;
-$font-family-fancy: 'Lobster';
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Lobster|Lobster+Two');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,300,400,500');
 
+$font-family-header: 'Lato', serif;
+$font-family-main: 'Raleway', sans-serif;
+$font-family-fancy: 'Lobster Two', cursive;
 
 $main-blue: #35a7ff;
 $main-red: #e7134f;

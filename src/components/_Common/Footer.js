@@ -7,49 +7,76 @@ const Footer = () => {
         <footer id="footer">
             <div className="container-fluid">
                 <div className="row">
-                    <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                        <ul className="social-share" id="footer-social">
-                            <li className="footer-link-header">Socialize</li>
-                            <li>
-                                <a href={URL_FACEBOOK}>
-                                    <img src={require("../../assets/icons/socialmedia/icons8-facebook.svg")}/>
-                                    Facebook
-                                </a>
-                            </li>
-                            <li>
-                                <a href={URL_INSTAGRAM}>
-                                    <img src={require("../../assets/icons/socialmedia/icons8-instagram.svg")}/>
-                                    Instagram
-                                </a>
-                            </li>
-                            <li>
-                                <a href={URL_TWITTER}>
-                                    <img src={require("../../assets/icons/socialmedia/icons8-twitter.svg")}/>
-                                    Twitter
-                                </a>
-                            </li>
-                        </ul>
+                    <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <span>Need Help? +1 999-999-9999</span>
                     </div>
-                    <div id="footer-contact" className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                        <ul>
-                            <li className="footer-link-header">Get In Touch</li>
-                            <li>General: contact@hoppispace.com</li>
-                            <li>Support: support@hoppispace.com</li>
-                            <li>{/*TO DO: Add phone icon*/}Phone: 000.000.0000</li>
-                        </ul>
-                    </div>
-                    <div id="footer-copyright" className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                        <ul id="footer-copyright">
-                            <li className="footer-link-header">Legal stuff</li>
-                            <li>Copyright &copy; Hoppi Space 2018</li>
-                            <li>Terms and Conditions</li>
-                            <li>Privacy Policy</li>
-                            <li>Careers</li>
-                        </ul>
+                    <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <span><a href="/">Contact</a></span>
                     </div>
                 </div>
+                <hr/>
                 <div className="row">
-                    <a href="https://icons8.com">Icon pack by Icons8</a>
+                    <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                        <h5>Our Mission</h5>
+                        <div>Hoppi Space transforms the traditional avenues of searching for art-friendly venues to be
+                            more convenient for today's creative. Implementing a "one-stop shop" approach, you can
+                            quickly reserve and use immediately, gaining more studio time and slashing the time
+                            searching for it.
+                        </div>
+                        <button className="btn btn-primary btn-large">Request Free Consultation!</button>
+                    </div>
+                    <div className="col-xs-12 col-sm-12 col-md-6 col-lg-8">
+                        <div className="container-fluid">
+                            <div className="row">
+                                <div className="col-lg-12">
+                                    <h5>Connect With Us</h5>
+                                    <div>
+                                        <a href={URL_FACEBOOK}>
+                                            <img src={require("../../assets/icons/socialmedia/icons8-facebook.svg")}/>
+                                        </a>
+                                        <a href={URL_INSTAGRAM}>
+                                            <img src={require("../../assets/icons/socialmedia/icons8-instagram.svg")}/>
+                                        </a>
+                                        <a href={URL_TWITTER}>
+                                            <img src={require("../../assets/icons/socialmedia/icons8-twitter.svg")}/>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr/>
+                            <div className="row">
+                                <div className="col-lg-6">
+                                    <a href="/"></a>
+                                    <a href="/"></a>
+                                    <a href="/"></a>
+                                    <a href="/"></a>
+                                    <a href="/"></a>
+                                </div>
+                                <div className="col-lg-6">
+                                    <a href="/"></a>
+                                    <a href="/"></a>
+                                    <a href="/"></a>
+                                    <a href="/"></a>
+                                    <a href="/"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr/>
+                <div className="row">
+                    <div className="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                        <div>&copy; 2018 Hoppi Space</div>
+                    </div>
+                    <div className="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                        <a href="https://icons8.com">Icon pack by Icons8</a>
+                    </div>
+                    <div className="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                        Privacy Policy
+                    </div>
+                    <div className="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                        Sitemap
+                    </div>
                 </div>
             </div>
         </footer>
